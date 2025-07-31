@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilot Training - Flying Studies Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Flying Studies Center" class="logo-img">
+                <span class="logo-text">Flying Studies Center</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="index.html#courses" class="nav-link active">Courses <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="pilot.html" class="dropdown-item active">
+                            <i class="fas fa-plane"></i>
+                            <div>
+                                <span class="dropdown-title">Pilot Training</span>
+                                <span class="dropdown-desc">Commercial & Private Pilot Licenses</span>
+                            </div>
+                        </a>
+                        <a href="cabincrew.html" class="dropdown-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <span class="dropdown-title">Cabin Crew</span>
+                                <span class="dropdown-desc">Flight Attendant Certification</span>
+                            </div>
+                        </a>
+                        <a href="technical.html" class="dropdown-item">
+                            <i class="fas fa-tools"></i>
+                            <div>
+                                <span class="dropdown-title">Technical Training</span>
+                                <span class="dropdown-desc">Aircraft Maintenance & Engineering</span>
+                            </div>
+                        </a>
+                        <a href="tourist.html" class="dropdown-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <span class="dropdown-title">Security Training</span>
+                                <span class="dropdown-desc">Aviation Security & Tourism</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <a href="apply-simple.html" class="btn-primary">Apply Now</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <img src="/placeholder.svg?height=600&width=1920" alt="Pilot Training" class="hero-bg-img">
+        </div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="index.html#courses">Courses</a>
+                <span>/</span>
+                <span>Pilot Training</span>
+            </div>
+            <div class="page-hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-plane"></i>
+                    <span>Professional Pilot Training</span>
+                </div>
+                <h1>Launch Your Pilot Career</h1>
+                <p>Comprehensive pilot training programs from Private Pilot License to Airline Transport Pilot License, designed to meet international aviation standards.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Flight Hours</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Pass Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Months</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Programs -->
+    <section class="course-programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Training Programs</span>
+                <h2 class="section-title">Pilot Training Pathways</h2>
+                <p class="section-description">Choose from our comprehensive range of pilot training programs designed to take you from beginner to professional pilot.</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="program-badge">Entry Level</div>
+                    </div>
+                    <h3>Private Pilot License (PPL)</h3>
+                    <p>Start your aviation journey with our comprehensive PPL program. Learn the fundamentals of flight and earn your private pilot license.</p>
+                    
+                    <div class="program-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>40 Flight Hours</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>3-6 Months</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>CAA Certified</span>
+                        </div>
+                    </div>
+
+                    <div class="program-curriculum">
+                        <h4>What You'll Learn:</h4>
+                        <ul>
+                            <li>Basic aerodynamics and flight principles</li>
+                            <li>Aircraft systems and instruments</li>
+                            <li>Navigation and radio communication</li>
+                            <li>Weather interpretation</li>
+                            <li>Emergency procedures</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="program-price">
+                        <span class="price">$12,500</span>
+                        <span class="price-note">All inclusive</span>
+                    </div>
+
+                    <a href="apply-simple.html" class="btn-primary btn-full">
+                        <i class="fas fa-rocket"></i>
+                        Enroll Now
+                    </a>
+                </div>
+
+                <div class="program-card featured">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <div class="program-badge popular">Most Popular</div>
+                    </div>
+                    <h3>Commercial Pilot License (CPL)</h3>
+                    <p>Advance to commercial aviation with our intensive CPL program. Build the skills needed for a professional pilot career.</p>
+                    
+                    <div class="program-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>250 Flight Hours</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>12-18 Months</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>ICAO Standard</span>
+                        </div>
+                    </div>
+
+                    <div class="program-curriculum">
+                        <h4>What You'll Learn:</h4>
+                        <ul>
+                            <li>Advanced flight maneuvers</li>
+                            <li>Multi-engine operations</li>
+                            <li>Instrument flight rules (IFR)</li>
+                            <li>Commercial flight operations</li>
+                            <li>Crew resource management</li>
+                        </ul>
+                    </div>
+
+                    <div class="program-price">
+                        <span class="price">$45,000</span>
+                        <span class="price-note">Financing available</span>
+                    </div>
+
+                    <a href="apply-simple.html" class="btn-primary btn-full">
+                        <i class="fas fa-rocket"></i>
+                        Enroll Now
+                    </a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="program-badge">Professional</div>
+                    </div>
+                    <h3>Airline Transport Pilot (ATPL)</h3>
+                    <p>Reach the pinnacle of pilot training with our ATPL program. Qualify to captain commercial aircraft for major airlines.</p>
+                    
+                    <div class="program-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>1500 Flight Hours</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>24-36 Months</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Airline Ready</span>
+                        </div>
+                    </div>
+
+                    <div class="program-curriculum">
+                        <h4>What You'll Learn:</h4>
+                        <ul>
+                            <li>Advanced aircraft systems</li>
+                            <li>Airline operations procedures</li>
+                            <li>Leadership and decision making</li>
+                            <li>International flight operations</li>
+                            <li>Type rating preparation</li>
+                        </ul>
+                    </div>
+
+                    <div class="program-price">
+                        <span class="price">$85,000</span>
+                        <span class="price-note">Career placement included</span>
+                    </div>
+
+                    <a href="apply-simple.html" class="btn-primary btn-full">
+                        <i class="fas fa-rocket"></i>
+                        Enroll Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Facilities -->
+    <section class="training-facilities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Facilities</span>
+                <h2 class="section-title">World-Class Training Environment</h2>
+                <p class="section-description">Train with the latest technology and equipment in our state-of-the-art facilities.</p>
+            </div>
+
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Flight Simulators">
+                    </div>
+                    <div class="facility-content">
+                        <h3>Flight Simulators</h3>
+                        <p>Train on professional-grade flight simulators including Boeing 737 and Airbus A320 full-motion simulators.</p>
+                        <ul>
+                            <li>Full motion simulators</li>
+                            <li>Fixed-base trainers</li>
+                            <li>Procedure trainers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Training Aircraft">
+                    </div>
+                    <div class="facility-content">
+                        <h3>Training Aircraft Fleet</h3>
+                        <p>Learn to fly on our modern fleet of training aircraft, maintained to the highest safety standards.</p>
+                        <ul>
+                            <li>Cessna 172 (Single Engine)</li>
+                            <li>Piper Seneca (Multi Engine)</li>
+                            <li>Diamond DA40 (Glass Cockpit)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="/placeholder.svg?height=250&width=400" alt="Ground School">
+                    </div>
+                    <div class="facility-content">
+                        <h3>Modern Classrooms</h3>
+                        <p>Interactive learning environments equipped with the latest educational technology and aviation training aids.</p>
+                        <ul>
+                            <li>Interactive whiteboards</li>
+                            <li>Flight planning computers</li>
+                            <li>Weather briefing stations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Team -->
+    <section class="instructor-team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Expert Instructors</span>
+                <h2 class="section-title">Learn from Aviation Professionals</h2>
+                <p class="section-description">Our experienced instructors bring real-world aviation expertise to your training.</p>
+            </div>
+
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="/placeholder.svg?height=200&width=200" alt="Captain John Smith">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Captain John Smith</h3>
+                        <p class="instructor-title">Chief Flight Instructor</p>
+                        <div class="instructor-credentials">
+                            <span class="credential">ATPL</span>
+                            <span class="credential">15,000+ Hours</span>
+                            <span class="credential">Boeing 737 Type Rating</span>
+                        </div>
+                        <p class="instructor-bio">Former airline captain with 20 years of commercial aviation experience. Specialized in advanced flight training and instrument procedures.</p>
+                    </div>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="/placeholder.svg?height=200&width=200" alt="Captain Sarah Johnson">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Captain Sarah Johnson</h3>
+                        <p class="instructor-title">Senior Flight Instructor</p>
+                        <div class="instructor-credentials">
+                            <span class="credential">ATPL</span>
+                            <span class="credential">12,000+ Hours</span>
+                            <span class="credential">Multi-Engine Instructor</span>
+                        </div>
+                        <p class="instructor-bio">Experienced flight instructor with expertise in multi-engine aircraft and commercial pilot training. Former military pilot.</p>
+                    </div>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="/placeholder.svg?height=200&width=200" alt="Captain Mike Davis">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Captain Mike Davis</h3>
+                        <p class="instructor-title">Simulator Instructor</p>
+                        <div class="instructor-credentials">
+                            <span class="credential">ATPL</span>
+                            <span class="credential">18,000+ Hours</span>
+                            <span class="credential">Type Rating Examiner</span>
+                        </div>
+                        <p class="instructor-bio">Simulator training specialist with extensive experience in type rating courses and recurrent training programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Pilot Training?</h2>
+                <p>Join hundreds of successful pilots who started their careers at Flying Studies Center. Take the first step towards your aviation dreams today.</p>
+                <div class="cta-actions">
+                    <button class="btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Apply Now
+                    </button>
+                    <button class="btn-outline btn-large">
+                        <i class="fas fa-calendar"></i>
+                        Schedule a Visit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="/placeholder.svg?height=50&width=180" alt="Flying Studies Center">
+                        <h3>Flying Studies Center</h3>
+                    </div>
+                    <p>Empowering aviation professionals with world-class training and education for over 25 years.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Training Programs</h4>
+                    <ul>
+                        <li><a href="pilot.html">Pilot Training</a></li>
+                        <li><a href="cabincrew.html">Cabin Crew Training</a></li>
+                        <li><a href="technical.html">Technical Training</a></li>
+                        <li><a href="tourist.html">Security Training</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#gallery">Gallery</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#">Career Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> 010-111-020-210</p>
+                        <p><i class="fas fa-envelope"></i> info@flyingstudies.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Aviation Training Complex</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flying Studies Center. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

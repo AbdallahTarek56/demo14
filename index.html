@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flying Studies Center - Premier Aviation Training</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="logo.png" alt="Flying Studies Center" class="logo-img" />
+          <span class="logo-text">Flying Studies Center</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#courses" class="nav-link"
+              >Courses <i class="fas fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <a href="pilot.html" class="dropdown-item">
+                <i class="fas fa-plane"></i>
+                <div>
+                  <span class="dropdown-title">Pilot Training</span>
+                  <span class="dropdown-desc"
+                    >Commercial & Private Pilot Licenses</span
+                  >
+                </div>
+              </a>
+              <a href="cabincrew.html" class="dropdown-item">
+                <i class="fas fa-users"></i>
+                <div>
+                  <span class="dropdown-title">Cabin Crew</span>
+                  <span class="dropdown-desc"
+                    >Flight Attendant Certification</span
+                  >
+                </div>
+              </a>
+              <a href="technical.html" class="dropdown-item">
+                <i class="fas fa-tools"></i>
+                <div>
+                  <span class="dropdown-title">Technical Training</span>
+                  <span class="dropdown-desc"
+                    >Aircraft Maintenance & Engineering</span
+                  >
+                </div>
+              </a>
+              <a href="tourist.html" class="dropdown-item">
+                <i class="fas fa-shield-alt"></i>
+                <div>
+                  <span class="dropdown-title">Security Training</span>
+                  <span class="dropdown-desc">Aviation Security & Tourism</span>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-actions">
+                          <a href="apply-simple.html" class="btn-primary">Apply Now</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="hero-overlay"></div>
+        <img
+          src="/placeholder.svg?height=800&width=1920"
+          alt="Aviation Training"
+          class="hero-bg-img"
+        />
+      </div>
+      <div class="hero-content">
+        <div class="container">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <i class="fas fa-certificate"></i>
+              <span>ICAO Certified Training Center</span>
+            </div>
+            <h1 class="hero-title">
+              Soar to New Heights with
+              <span class="gradient-text">Professional Aviation Training</span>
+            </h1>
+            <p class="hero-description">
+              Join thousands of aviation professionals who have launched their
+              careers with Flying Studies Center. Our world-class training
+              programs are designed to meet international aviation standards.
+            </p>
+            <!-- <div class="hero-actions">
+              <button class="btn-primary btn-large">
+                <i class="fas fa-rocket"></i>
+                Start Your Journey
+              </button>
+              <button
+                class="btn-outline btn-large play-btn"
+                data-video="hero-video"
+              >
+                <i class="fas fa-play"></i>
+                Watch Our Story
+              </button> -->
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number" data-count="5000">0</div>
+                <div class="stat-label">Graduates</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="25">0</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">Success Rate %</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="50">0</div>
+                <div class="stat-label">Expert Instructors</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">About FSC</span>
+          <h2 class="section-title">Leading Aviation Training Excellence</h2>
+          <p class="section-description">
+            For over 25 years, Flying Studies Center has been at the forefront
+            of aviation education, shaping the careers of pilots, cabin crew,
+            and aviation professionals worldwide.
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-grid">
+            <div class="about-text">
+              <div class="about-story">
+                <h3>Our Mission</h3>
+                <p>
+                  To provide world-class aviation training that meets
+                  international standards while fostering safety,
+                  professionalism, and excellence in every graduate. We are
+                  committed to advancing the aviation industry through
+                  innovative training methodologies and cutting-edge technology.
+                </p>
+              </div>
+
+              <div class="certifications">
+                <h4>Certifications & Accreditations</h4>
+                <div class="cert-grid">
+                  <div class="cert-item">
+                    <i class="fas fa-award"></i>
+                    <span>ICAO Certified</span>
+                  </div>
+                  <div class="cert-item">
+                    <i class="fas fa-globe"></i>
+                    <span>IATA Approved</span>
+                  </div>
+                  <div class="cert-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>ISO 9001:2015</span>
+                  </div>
+                  <div class="cert-item">
+                    <i class="fas fa-star"></i>
+                    <span>CAA Licensed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="div1"></div>
+            <div style="height: 20px;"></div>
+            <div class="div2"></div>
+
+
+                          <!-- Our Vision Section -->
+<section class="vision-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge">Our Vision</span>
+      <h2 class="section-title">Inspiring the Future of Aviation</h2>
+      <p class="section-description">
+        Our vision is to empower the next generation of aviation professionals with world-class training, innovation, and a passion for excellence. We strive to set new standards in safety, technology, and global leadership in the aviation industry.
+      </p>
+    </div>
+  </div>
+</section>
+
+            <div class="about-features">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h4>Expert Faculty</h4>
+                <p>
+                  Learn from experienced aviation professionals with thousands
+                  of flight hours and industry expertise.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <h4>Modern Simulators</h4>
+                <p>
+                  Train on state-of-the-art flight simulators and equipment that
+                  mirror real-world conditions.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-handshake"></i>
+                </div>
+                <h4>Industry Partnerships</h4>
+                <p>
+                  Strong connections with airlines and aviation companies for
+                  internships and job placements.
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-globe-americas"></i>
+                </div>
+                <h4>Global Recognition</h4>
+                <p>
+                  Our certifications are recognized worldwide, opening doors to
+                  international career opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Training Programs</span>
+          <h2 class="section-title">Choose Your Aviation Career Path</h2>
+          <p class="section-description">
+            Comprehensive training programs designed to launch your aviation
+            career with confidence and expertise.
+          </p>
+        </div>
+
+        <div class="courses-grid">
+          <div class="course-category" data-category="pilot">
+            <div class="category-card">
+              <div class="category-image">
+                <img src="logo mhmdjpg.jpg" alt="Pilot Training" />
+                <div class="category-overlay">
+                  <div class="category-icon">
+                    <i class="fas fa-plane"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="category-content">
+                <h3>Pilot Training</h3>
+                <p>
+                  Comprehensive pilot training programs from Private Pilot
+                  License (PPL) to Airline Transport Pilot License (ATPL).
+                </p>
+                <div class="category-features">
+                  <span class="feature-tag">Flight Simulators</span>
+                  <span class="feature-tag">Ground School</span>
+                  <span class="feature-tag">Practical Training</span>
+                </div>
+                <div class="category-stats">
+                  <div class="stat">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Flight Hours</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Months</span>
+                  </div>
+                </div>
+                <a href="pilot.html" class="category-btn">
+                  Explore Program
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-category" data-category="cabincrew">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Cabin Crew Training"
+                />
+                <div class="category-overlay">
+                  <div class="category-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="category-content">
+                <h3>Cabin Crew Training</h3>
+                <p>
+                  Professional flight attendant training covering safety
+                  procedures, customer service, and emergency protocols.
+                </p>
+                <div class="category-features">
+                  <span class="feature-tag">Safety Training</span>
+                  <span class="feature-tag">Service Excellence</span>
+                  <span class="feature-tag">Emergency Procedures</span>
+                </div>
+                <div class="category-stats">
+                  <div class="stat">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Weeks</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Job Placement</span>
+                  </div>
+                </div>
+                <a href="cabincrew.html" class="category-btn">
+                  Explore Program
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-category" data-category="technical">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Technical Training"
+                />
+                <div class="category-overlay">
+                  <div class="category-icon">
+                    <i class="fas fa-tools"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="category-content">
+                <h3>Technical Training</h3>
+                <p>
+                  Aircraft maintenance and engineering programs covering
+                  avionics, mechanical systems, and safety protocols.
+                </p>
+                <div class="category-features">
+                  <span class="feature-tag">Hands-on Training</span>
+                  <span class="feature-tag">Avionics</span>
+                  <span class="feature-tag">Maintenance</span>
+                </div>
+                <div class="category-stats">
+                  <div class="stat">
+                    <span class="stat-number">18</span>
+                    <span class="stat-label">Months</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Certification</span>
+                  </div>
+                </div>
+                <a href="technical.html" class="category-btn">
+                  Explore Program
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-category" data-category="security">
+            <div class="category-card">
+              <div class="category-image">
+                <img
+                  src="/placeholder.svg?height=300&width=400"
+                  alt="Security Training"
+                />
+                <div class="category-overlay">
+                  <div class="category-icon">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="category-content">
+                <h3>Security Training</h3>
+                <p>
+                  Aviation security and tourism safety training programs for
+                  airport security and travel industry professionals.
+                </p>
+                <div class="category-features">
+                  <span class="feature-tag">Security Protocols</span>
+                  <span class="feature-tag">Risk Assessment</span>
+                  <span class="feature-tag">Tourism Safety</span>
+                </div>
+                <div class="category-stats">
+                  <div class="stat">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Weeks</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support</span>
+                  </div>
+                </div>
+                <a href="tourist.html" class="category-btn">
+                  Explore Program
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Our Facilities</span>
+          <h2 class="section-title">State-of-the-Art Training Environment</h2>
+          <p class="section-description">
+            Explore our modern facilities, advanced simulators, and training
+            equipment.
+          </p>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="simulators">
+            Simulators
+          </button>
+          <button class="filter-btn" data-filter="classrooms">
+            Classrooms
+          </button>
+          <button class="filter-btn" data-filter="aircraft">Aircraft</button>
+          <button class="filter-btn" data-filter="facilities">
+            Facilities
+          </button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <div class="gallery-item" data-category="simulators">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Flight Simulator"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Flight Simulator</h4>
+                <p>Boeing 737 Full Motion Simulator</p>
+                <button class="gallery-btn" data-lightbox="gallery-1">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="classrooms">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Modern Classroom"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Modern Classroom</h4>
+                <p>Interactive Learning Environment</p>
+                <button class="gallery-btn" data-lightbox="gallery-2">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="aircraft">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Training Aircraft"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Training Aircraft</h4>
+                <p>Cessna 172 Fleet</p>
+                <button class="gallery-btn" data-lightbox="gallery-3">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Campus Facilities"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Campus Facilities</h4>
+                <p>Student Common Area</p>
+                <button class="gallery-btn" data-lightbox="gallery-4">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="simulators">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Cabin Crew Simulator"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Cabin Crew Simulator</h4>
+                <p>Emergency Training Facility</p>
+                <button class="gallery-btn" data-lightbox="gallery-5">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="facilities">
+            <img
+              src="/placeholder.svg?height=300&width=400"
+              alt="Maintenance Hangar"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <h4>Maintenance Hangar</h4>
+                <p>Technical Training Workshop</p>
+                <button class="gallery-btn" data-lightbox="gallery-6">
+                  <i class="fas fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Start Your Aviation Journey Today</h2>
+          <p class="section-description">
+            Ready to take off? Contact us to learn more about our programs and
+            admission requirements.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Visit Our Campus</h4>
+                <p>
+                  Flying Studies Center<br />Aviation Training Complex<br />International
+                  Airport District
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/1VYBSPsVcif2NTFs7"
+                  class="contact-link"
+                  target="_blank"
+                >
+                  View on Map <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Call Us</h4>
+                <p>Admissions Office</p>
+                <a href="tel:010111020210" class="contact-link"
+                  >010-111-020-210</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Us</h4>
+                <p>General Inquiries</p>
+                <a href="mailto:info@flyingstudies.com" class="contact-link"
+                  >info@flyingstudies.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Office Hours</h4>
+                <p>
+                  Monday - Friday: 8:00 AM - 6:00 PM<br />Saturday: 9:00 AM -
+                  4:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="program">Interested Program</label>
+                <select id="program" name="program" required>
+                  <option value="">Select a program</option>
+                  <option value="pilot">Pilot Training</option>
+                  <option value="cabincrew">Cabin Crew Training</option>
+                  <option value="technical">Technical Training</option>
+                  <option value="security">Security Training</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us about your aviation goals..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary btn-large">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img
+                src="/placeholder.svg?height=50&width=180"
+                alt="Flying Studies Center"
+              />
+              <h3>Flying Studies Center</h3>
+            </div>
+            <p>
+              Empowering aviation professionals with world-class training and
+              education for over 25 years.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Training Programs</h4>
+            <ul>
+              <li><a href="pilot.html">Pilot Training</a></li>
+              <li><a href="cabincrew.html">Cabin Crew Training</a></li>
+              <li><a href="technical.html">Technical Training</a></li>
+              <li><a href="tourist.html">Security Training</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Career Services</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="footer-contact">
+              <p><i class="fas fa-phone"></i> 010-111-020-210</p>
+              <p><i class="fas fa-envelope"></i> info@flyingstudies.com</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Aviation Training Complex
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Flying Studies Center. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img src="/placeholder.svg" alt="" id="lightbox-img" />
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
